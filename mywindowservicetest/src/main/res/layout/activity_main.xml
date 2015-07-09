@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:onClick="OnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开启悬浮小窗口" />
+    <Button
+        android:onClick="OnStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关闭悬浮小窗口" />
+</LinearLayout>
